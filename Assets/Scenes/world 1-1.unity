@@ -328,6 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458297220}
   - component: {fileID: 458297221}
+  - component: {fileID: 458297222}
   m_Layer: 0
   m_Name: Small pipe 06
   m_TagString: Untagged
@@ -402,6 +403,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &458297222
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458297219}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &515886539
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863695105}
   - component: {fileID: 863695106}
+  - component: {fileID: 863695107}
   m_Layer: 0
   m_Name: small steps_01 02
   m_TagString: Untagged
@@ -913,6 +941,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &863695107
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863695104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.16007814, y: 0.32006314}
+      - {x: -0.32, y: 0.32}
+      - {x: -0.32, y: -0.32}
+      - {x: 0.32, y: -0.32}
+      - {x: 0.31997728, y: -0.159984}
+      - {x: 0.15997535, y: -0.1599592}
+      - {x: 0.15999174, y: 0.000035762787}
+      - {x: 0.00003385544, y: 0.000036478043}
+      - {x: -0.00011730194, y: 0.15994795}
+      - {x: -0.15999168, y: 0.1600015}
 --- !u!1 &872360131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981951705}
   - component: {fileID: 981951704}
+  - component: {fileID: 981951706}
   m_Layer: 0
   m_Name: small steps_01
   m_TagString: Untagged
@@ -1108,6 +1172,41 @@ Transform:
   m_Father: {fileID: 1553909684}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &981951706
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981951703}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15996894, y: 0.3198378}
+      - {x: -0.32, y: 0.32}
+      - {x: -0.32, y: -0.32}
+      - {x: 0.32, y: -0.32}
+      - {x: 0.31991386, y: -0.16011214}
+      - {x: 0.159962, y: -0.16007933}
+      - {x: 0.15996265, y: -0.000024586916}
+      - {x: -0.000014305115, y: -0.000026494265}
+      - {x: -0.00005054474, y: 0.16002072}
+      - {x: -0.15997452, y: 0.1599757}
 --- !u!1 &1025567608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1025567609}
   - component: {fileID: 1025567610}
+  - component: {fileID: 1025567611}
   m_Layer: 0
   m_Name: Small pipe 05
   m_TagString: Untagged
@@ -1192,6 +1292,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1025567611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025567608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &1028631866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248621792}
   - component: {fileID: 1248621793}
+  - component: {fileID: 1248621794}
   m_Layer: 0
   m_Name: Med pipe 02
   m_TagString: Untagged
@@ -1346,6 +1473,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1248621794
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248621791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.48}
+    newSize: {x: 0.32, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.48}
+  m_EdgeRadius: 0
 --- !u!1 &1335493395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,6 +1620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348076965}
   - component: {fileID: 1348076966}
+  - component: {fileID: 1348076967}
   m_Layer: 0
   m_Name: Large pipe 04
   m_TagString: Untagged
@@ -1541,6 +1695,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1348076967
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348076964}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.64}
+    newSize: {x: 0.32, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1 &1373222919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373222920}
   - component: {fileID: 1373222921}
+  - component: {fileID: 1373222922}
   m_Layer: 0
   m_Name: small steps_01 01
   m_TagString: Untagged
@@ -1625,6 +1806,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1373222922
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373222919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.15998545, y: 0.15995899}
+      - {x: 0.00006198883, y: 0.15995538}
+      - {x: -0.00003749132, y: -0.00011086464}
+      - {x: -0.15994358, y: 0.000033944845}
+      - {x: -0.15999365, y: -0.1599862}
+      - {x: -0.3199973, y: -0.16006684}
+      - {x: -0.32, y: -0.32}
+      - {x: 0.32, y: -0.32}
+      - {x: 0.320072, y: 0.31998244}
+      - {x: 0.15994316, y: 0.31998244}
 --- !u!1 &1463205606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463205608}
   - component: {fileID: 1463205607}
+  - component: {fileID: 1463205609}
   m_Layer: 0
   m_Name: Castle steps
   m_TagString: Untagged
@@ -1709,6 +1926,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1463205609
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463205606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.44, y: 1.28}
+    newSize: {x: 1.44, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.40017486, y: 0.6398333}
+      - {x: 0.39994144, y: 0.4800148}
+      - {x: 0.24001026, y: 0.47994757}
+      - {x: 0.23991871, y: 0.32004488}
+      - {x: 0.08003235, y: 0.31992233}
+      - {x: 0.07997094, y: 0.16006029}
+      - {x: -0.07993317, y: 0.15996401}
+      - {x: -0.08002567, y: -0.000034347177}
+      - {x: -0.23997211, y: -0.000013567507}
+      - {x: -0.23994637, y: -0.1598728}
+      - {x: -0.39998436, y: -0.16004923}
+      - {x: -0.4000082, y: -0.31990522}
+      - {x: -0.5599184, y: -0.31992584}
+      - {x: -0.5599699, y: -0.47988367}
+      - {x: -0.7199771, y: -0.47988665}
+      - {x: -0.71999997, y: -0.64}
+      - {x: 0.71999997, y: -0.64}
+      - {x: 0.71999997, y: 0.64}
 --- !u!1 &1506956657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506956658}
   - component: {fileID: 1506956659}
+  - component: {fileID: 1506956660}
   m_Layer: 0
   m_Name: Large pipe 03
   m_TagString: Untagged
@@ -1793,6 +2054,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1506956660
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506956657}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.64}
+    newSize: {x: 0.32, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1 &1553909683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +2123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818857292}
   - component: {fileID: 1818857293}
+  - component: {fileID: 1818857294}
   m_Layer: 0
   m_Name: Small steps_02
   m_TagString: Untagged
@@ -1910,6 +2198,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1818857294
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818857291}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.64}
+    newSize: {x: 0.8, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.07975225, y: 0.31986213}
+      - {x: 0.07994461, y: 0.1600936}
+      - {x: -0.07996097, y: 0.15995446}
+      - {x: -0.08012676, y: -0.000053852797}
+      - {x: -0.23998916, y: -0.00006003678}
+      - {x: -0.24003029, y: -0.16003075}
+      - {x: -0.40006113, y: -0.16001406}
+      - {x: -0.39999998, y: -0.32}
+      - {x: 0.39999998, y: -0.32}
+      - {x: 0.39999998, y: 0.32}
 --- !u!1 &1882009025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +2243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882009026}
   - component: {fileID: 1882009027}
+  - component: {fileID: 1882009028}
   m_Layer: 0
   m_Name: Small pipe 01
   m_TagString: Untagged
@@ -1994,6 +2318,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1882009028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882009025}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &1895821977
 GameObject:
   m_ObjectHideFlags: 0
