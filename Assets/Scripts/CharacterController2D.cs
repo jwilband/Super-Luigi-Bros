@@ -4,27 +4,18 @@ using UnityEngine;
 
 public class CharacterController2D : MonoBehaviour
 {
-    public float maxWalkSpeed = 2.0f;
-    public float maxRunSpeed = 5.0f;
-    public float maxJump = 6.0f;
-
-    bool facingRight = true;
-    bool grounded = true;
+    private float maxWalkSpeed = 1.0f;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
-    }
-
-    void Move()
-    {
-      
+        var movement = Input.GetAxis("Horizontal");
+        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * maxWalkSpeed;
     }
 }
